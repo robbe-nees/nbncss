@@ -676,15 +676,7 @@ blockquote {
   padding-bottom: 16px;
 }
 
-@media screen and (max-width: 991px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2.4rem;
-  }
-
+@media screen and (max-width: 1500px) {
   .nav-menu {
     width: 100%;
     padding-bottom: 32px;
@@ -699,21 +691,12 @@ blockquote {
   .nav-link {
     height: auto;
   }
-
-  .container {
-    overflow: hidden;
-  }
-
+  
   .container.nav-dd-contents-container {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-
-  .footer-grid {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
+  
   .menu-button {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -732,6 +715,25 @@ blockquote {
   .lottie-animation {
     width: 30px;
     height: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+
+  .footer-grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
