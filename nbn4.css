@@ -116,6 +116,7 @@
 #NAV-Contribute .nav-icon-link {
   padding: 10px;
   border-radius: 2px;
+  position: relative;
 }
 
 #NAV-Contribute .nav-icon-link:hover {
