@@ -184,6 +184,10 @@
   text-decoration: none;
 }
 
+#NAV-Contribute .settings-link:hover {
+  font-weight: 900;
+}
+
 #NAV-Contribute .container {
   display: block;
   max-width: 1350px;
