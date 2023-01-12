@@ -296,8 +296,8 @@
   border: 0;
 }
 #NAV-Contribute button,
-[type='button'],
-[type='reset'] {
+#NAV-Contribute [type='button'],
+#NAV-Contribute [type='reset'] {
   border: 0;
   cursor: pointer;
   -webkit-appearance: button;
